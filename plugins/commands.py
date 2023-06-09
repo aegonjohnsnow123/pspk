@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/Tg_Movies4u')
+                InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/PH_FILES')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,14 +45,14 @@ async def start(client, message):
             [
             InlineKeyboardButton('➕ ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴏᴜᴛ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴏᴜʀ ʙᴏᴛ', url='https://telegram.me/TG_Movies4u/81')
+            InlineKeyboardButton('ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴏᴜʀ ʙᴏᴛ', url='https://telegram.me/PH_FILES/81')
         ],[
-            InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/Tg_Movies4u'),
-            InlineKeyboardButton('👥 ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url='https://telegram.me/kumarvalimaibot')
+            InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/PH_FILES'),
+            InlineKeyboardButton('👥 ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url='https://telegram.me/PH_FILES')
             ],[
                 InlineKeyboardButton('ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ʜᴇʀᴇ', url='https://telegram.me/Tg_Movies4u')
+            InlineKeyboardButton('ᴊᴏɪɴ ʜᴇʀᴇ', url='https://telegram.me/PH_FILES')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -72,7 +72,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "𝕮𝖑𝖎𝖈𝖐 𝕳𝖊𝖗𝖊 𝕿𝖔 𝕵𝖔𝖎𝖓🔥", url='https://telegram.me/Tg_Movies4u' #invite_link.invite_link
+                    "𝕮𝖑𝖎𝖈𝖐 𝕳𝖊𝖗𝖊 𝕿𝖔 𝕵𝖔𝖎𝖓🔥", url='https://telegram.me/PH_FILES' #invite_link.invite_link
                 )
             ]
         ]
@@ -96,12 +96,12 @@ async def start(client, message):
             [
              InlineKeyboardButton('ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴏᴜʀ ʙᴏᴛ', url='https://telegram.me/how_to_use_tmafilesbot/2')
             ],[
-            InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/Tg_Movies4u'),
-            InlineKeyboardButton('👥 ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url='https://telegram.me/Kumarvalimaibot')
+            InlineKeyboardButton('❤️‍🔥口凵尺 匚卄卂𠘨𠘨乇乚❤️‍🔥', url='https://telegram.me/PH_FILES'),
+            InlineKeyboardButton('👥 ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url='https://telegram.me/PH_FILES')
             ],[
                 InlineKeyboardButton('ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴊᴏɪɴ ʜᴇʀᴇ', url='https://telegram.me/Tg_Movies4u')
+            InlineKeyboardButton('ᴊᴏɪɴ ʜᴇʀᴇ', url='https://telegram.me/PH_FILES')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
